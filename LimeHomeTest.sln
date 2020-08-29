@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LimeHomeTest.Web", "LimeHomeTest.Web\LimeHomeTest.Web.csproj", "{A24D89D9-119C-443A-9E7C-39504513C22C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LimeHomeTest.Services", "LimeHomeTest.Services\LimeHomeTest.Services.csproj", "{E67ACD23-D131-4B30-BB59-10A20358DAAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LimeHomeTest.Dto", "LimeHomeTest.Dto\LimeHomeTest.Dto.csproj", "{925B0975-256F-45B8-81A5-EF7CF0069DB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LimeHomeTest.Repository", "LimeHomeTest.Repository\LimeHomeTest.Repository.csproj", "{3EF5C41D-9A7E-4E2D-A42A-D00F09865267}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LimeHomeTest.Tests", "LimeHomeTest.Tests\LimeHomeTest.Tests.csproj", "{959E04DF-D148-4C1D-B31C-B009861E12EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B9650CDA-F5EA-487E-9D7F-F3828169D021}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A24D89D9-119C-443A-9E7C-39504513C22C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24D89D9-119C-443A-9E7C-39504513C22C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24D89D9-119C-443A-9E7C-39504513C22C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24D89D9-119C-443A-9E7C-39504513C22C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E67ACD23-D131-4B30-BB59-10A20358DAAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E67ACD23-D131-4B30-BB59-10A20358DAAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E67ACD23-D131-4B30-BB59-10A20358DAAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E67ACD23-D131-4B30-BB59-10A20358DAAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{925B0975-256F-45B8-81A5-EF7CF0069DB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{925B0975-256F-45B8-81A5-EF7CF0069DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{925B0975-256F-45B8-81A5-EF7CF0069DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{925B0975-256F-45B8-81A5-EF7CF0069DB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EF5C41D-9A7E-4E2D-A42A-D00F09865267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EF5C41D-9A7E-4E2D-A42A-D00F09865267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EF5C41D-9A7E-4E2D-A42A-D00F09865267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EF5C41D-9A7E-4E2D-A42A-D00F09865267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{959E04DF-D148-4C1D-B31C-B009861E12EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{959E04DF-D148-4C1D-B31C-B009861E12EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{959E04DF-D148-4C1D-B31C-B009861E12EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{959E04DF-D148-4C1D-B31C-B009861E12EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{959E04DF-D148-4C1D-B31C-B009861E12EF} = {B9650CDA-F5EA-487E-9D7F-F3828169D021}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BA5EB30-3CFA-4AA8-8C79-A25C8C3734D4}
+	EndGlobalSection
+EndGlobal

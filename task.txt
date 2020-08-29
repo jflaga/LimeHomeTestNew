@@ -1,0 +1,11 @@
+Software engineer recruitment test
+Create a service that shows the user hotels near a specific location on a map.
+The task is designed to assess your interest, problem-solving skills and experience. We want to see your code, your approach, and your talent.
+To get the places, we recommend using the HERE Places API although you can use a different places service if you wish (e.g. Google or Foursquare).
+
+Technical spec
+Write, document and test an API with the below endpoints:
+api/properties?at=LAT,LONG	//Returns the property around Lat/Lon
+api/bookings	//Creates a booking for a property.
+api/properties/PROPERTY_ID/bookings	//Returns the bookings for a property
+Include a minimal front-end (e.g. a static view) and an API docs.
